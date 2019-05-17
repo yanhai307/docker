@@ -1,0 +1,25 @@
+#
+
+# deb cdrom:[Debian GNU/Linux 9.8.0 _Stretch_ - Official amd64 DVD Binary-1 20190216-11:59]/ stretch contrib main
+
+#deb cdrom:[Debian GNU/Linux 9.8.0 _Stretch_ - Official amd64 DVD Binary-1 20190216-11:59]/ stretch contrib main
+
+# Line commented out by installer because it failed to verify:
+#deb http://security.debian.org/debian-security stretch/updates main contrib
+# Line commented out by installer because it failed to verify:
+#deb-src http://security.debian.org/debian-security stretch/updates main contrib
+
+# stretch-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+#deb http://deb.debian.org/debian/ stretch-updates main contrib
+#deb-src http://deb.debian.org/debian/ stretch-updates main contrib
+
+deb http://mirrors.aliyun.com/debian stretch main contrib non-free
+deb-src http://mirrors.aliyun.com/debian stretch main contrib non-free
+deb http://mirrors.aliyun.com/debian stretch-updates main contrib non-free
+deb-src http://mirrors.aliyun.com/debian stretch-updates main contrib non-free
+deb http://mirrors.aliyun.com/debian-security stretch/updates main contrib non-free
+deb-src http://mirrors.aliyun.com/debian-security stretch/updates main contrib non-free
